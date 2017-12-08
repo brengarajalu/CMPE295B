@@ -1,0 +1,328 @@
+%YAML:1.0
+---
+opencv_ml_rtrees:
+   format: 3
+   is_classifier: 1
+   var_all: 17
+   var_count: 16
+   ord_var_count: 16
+   cat_var_count: 1
+   training_params:
+      use_surrogates: 0
+      max_categories: 10
+      regression_accuracy: 0.
+      max_depth: 20
+      min_sample_count: 10
+      cross_validation_folds: 0
+      nactive_vars: 0
+   global_var_idx: 1
+   var_idx: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+   var_type: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
+   cat_ofs: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+   class_labels: [ 3, 8, 13, 19 ]
+   missing_subst: [ 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0. ]
+   oob_error: 1.
+   ntrees: 50
+   trees:
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 8.
+               norm_class_idx: 1
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2
+      -
+         nodes:
+            -
+               depth: 0
+               value: 3.
+               norm_class_idx: 0
+      -
+         nodes:
+            -
+               depth: 0
+               value: 19.
+               norm_class_idx: 3
+      -
+         nodes:
+            -
+               depth: 0
+               value: 13.
+               norm_class_idx: 2

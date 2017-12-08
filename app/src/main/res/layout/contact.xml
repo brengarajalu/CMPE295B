@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="12sp"
+        android:text="Welcome to DDD"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:lineSpacingExtra="12sp"
+        android:text="To start with, please choose three emergency contacts who will receive the alert messages incase we find you Distracted Driving"
+        android:textAlignment="center"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/pickcontact1"
+        android:layout_width="222dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Pick Emergency Contact 1" />
+
+
+    <Button
+        android:id="@+id/pickcontact2"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Pick Emergency Contact 2" />
+
+
+    <Button
+        android:id="@+id/pickcontact3"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Pick Emergency Contact 3" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Cancel" />
+
+</LinearLayout>
